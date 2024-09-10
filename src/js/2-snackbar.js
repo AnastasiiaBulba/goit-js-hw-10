@@ -18,7 +18,7 @@ form.addEventListener('submit', event => {
       }
     }, delay);
   });
-  console.log('Form submitted', delay, state);
+  //   console.log('Form submitted', delay, state);
   promise
     .then(delay => {
       iziToast.success({
